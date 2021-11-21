@@ -1,0 +1,19 @@
+.main_img {
+    background-image: url('../img/Rodeo-Bridge.jpg');
+    background-repeat: no-repeat;
+}
+
+.img-container{
+    height: 40rem;
+}
+
+.image-text{
+    height: 34rem;
+    margin-top: 1em;
+    background: rgba(105, 105, 105, 0.4);
+}
+
+
+h1, h2{
+    color: black;
+}
