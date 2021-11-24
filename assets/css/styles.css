@@ -1,19 +1,58 @@
-.main_img {
+.img-container {
     background-image: url('../img/Rodeo-Bridge.jpg');
     background-repeat: no-repeat;
+    background-size: 100%;
+  padding-top: 55%; /* 1:1 Aspect Ratio */
+  position: relative;
 }
 
-.img-container{
-    height: 40rem;
-}
 
 .image-text{
-    height: 34rem;
-    margin-top: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     background: rgba(105, 105, 105, 0.4);
 }
 
+@media screen and (min-width: 701px) {
+    .title {
+      font-size: 100px;
+    }
+  }
 
-h1, h2{
+
+@media screen and (max-width: 700px) {
+    .title {
+      font-size: 50px;
+    }
+  }
+
+
+@media screen and (min-width: 601px) {
+    .title {
+      font-size: 40px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .title {
+      font-size: 20px;
+    }
+  }
+
+  h1{
+    margin-top: 40%;
+  }
+
+
+  .title{
     color: black;
 }
+
+.second_div {
+  height: 5em;
+}
+
