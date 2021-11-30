@@ -1,3 +1,11 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+a {
+  font-size: 1.5em;
+}
+
 .img-container {
     background-image: url('../img/Rodeo-Bridge.jpg');
     background-repeat: no-repeat;
