@@ -109,8 +109,38 @@ a {
 }
 
 .second_div {
-  height: 5em;
+  height: 8rem;
 }
 
+.second_div h4 {
+  padding-top: 1rem;
+}
 
+.interSpace1 {
+  height: 2rem;
+}
+
+.staIntro h3 {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+
+.staIntro p {
+  font-size: 0.8rem;
+  padding-bottom: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.dealers {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.dealers h3 {
+  padding-bottom: 3rem;
+}
+
+.contact {
+  padding-top: 2rem;
+}
 
