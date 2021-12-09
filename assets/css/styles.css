@@ -6,6 +6,10 @@ a {
   font-size: 1.5em;
 }
 
+.second-navline {
+  background: rgba(255, 255, 255, 0.9) ;
+}
+
 .img-container {
     background-image: url('../img/Rodeo-Bridge.jpg');
     background-repeat: no-repeat;
