@@ -6,15 +6,28 @@ a {
   font-size: 1.5em;
 }
 
-.second-navline {
-  background: rgba(255, 255, 255, 0.9) ;
+.wapp {
+  height: 2rem;
+  width: auto;
 }
+
+.first-navline {
+  height: 1.9rem;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.second-navline {
+  
+  background-color: rgba(2, 117, 216, 0.9) ;
+}
+
+
 
 .img-container {
     background-image: url('../img/Rodeo-Bridge.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-  padding-top: 55%; /* 1:1 Aspect Ratio */
+  padding-top: 55%; 
   position: relative;
 }
 
@@ -34,9 +47,23 @@ a {
     
 }
 
+.navbar-toggler {
+  
+}
+
+.navbar-toggler span{
+  
+}
+
+
+
 @media screen and (min-width: 801px) {
-  .title {
+  .title-one {
     font-size: 50px;
+  }
+
+  .title-two {
+    font-size: 30px;
   }
 
   .image-text {
@@ -47,20 +74,32 @@ a {
 
 
 @media screen and (max-width: 800px) {
-    .title {
-      font-size: 40px;
-    }
+  .title-one {
+    font-size: 40px;
+  }
+
+  .title-two {
+    font-size: 20px;
+  }
 
     .image-text {
       margin-bottom: 10%;
     }
+
+    .img-container {
+      margin-top: 5%;
+    }  
   }
 
 
 @media screen and (max-width: 700px) {
-    .title {
-      font-size: 35px;
-    }
+  .title-one {
+    font-size: 35px;
+  }
+
+  .title-two {
+    font-size: 20px;
+  }
 
     .image-text {
       margin-bottom: 10%;
@@ -70,47 +109,80 @@ a {
 
 
 @media screen and (max-width: 650px) {
-    .title {
-      font-size: 30px;
-    }
+  .title-one {
+    font-size: 30px;
+  }
+
+  .title-two {
+    font-size: 15px;
+  }
     .image-text {
       margin-bottom: 10%;
     }
+
+  .img-container {
+    margin-top: 12%;
+  }  
 
     
   }
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
   @media screen and (max-width: 600px) {
-    .title {
-      font-size: 20px;
+    .title-one {
+      font-size: 25px;
+    }
+  
+    .title-two {
+      font-size: 10px;
     }
     .image-text {
       margin-bottom: 10%;
+    }
+
+    .img-container {
+      margin-top: 15%;
     }
     
   }
 
   @media screen and (max-width: 470px) {
-    .title {
-      font-size: 15px;
+    .title-one {
+      font-size: 20px;
+    }
+  
+    .title-two {
+      font-size: 10px;
     }
     .image-text {
       margin-bottom: 5%;
     }
 
-
+    .img-container {
+      margin-top: 15%;
+    }
     
   }
+
+   @media screen and (max-width: 300px) {
+
+    .img-container {
+      margin-top: 30%;
+    }
+     
+   }
 
   h1{
     margin-top: 40%;
   }
 
-
-  .title{
+  .title-one {
     color: whitesmoke;
-}
+  }
+
+  .title-two {
+    color: whitesmoke;
+  }
 
 .second_div {
   height: 8rem;
