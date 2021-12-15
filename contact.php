@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ST Australis</title>
+    <title>STA Contacto</title>
     <link rel="icon" class="ico" href="assets/img/favicon-32x32.png">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -15,7 +15,21 @@
     <script id="replace_with_navbar" src="assets/js/nav.js"></script>
     
     <header>
-        <h2>Contacto</h2>
+        <form action="email.php" method="post">
+            <input type="text" placeholder="Nombre" name="name" required="">
+            <input type="text" placeholder="Empresa (Opcional)" name="company" required="">
+            <input type="email" placeholder="Email" name="email" required="">
+            <input type="text" placeholder="Asunto" name="subject" required="">
+            <textarea name="message" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+            <input type="submit" name="send">
+        </form>
+        
+
+    <?php
+
+       include("email.php");
+
+    ?>    
     </header>
     
     
