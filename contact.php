@@ -13,15 +13,22 @@
 <body>
     
     <script id="replace_with_navbar" src="assets/js/nav.js"></script>
+
+    <header class="text-center mt-2">
+        <h3 class="mt-5">Dejanos tus consultas</h3>
+        <h3>en el formulario de contacto</h3>
+        
+        
+    </header>
     
-    <header>
-        <form action="email.php" method="post">
-            <input type="text" placeholder="Nombre" name="name" required="">
-            <input type="text" placeholder="Empresa (Opcional)" name="company" required="">
-            <input type="email" placeholder="Email" name="email" required="">
-            <input type="text" placeholder="Asunto" name="subject" required="">
-            <textarea name="message" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
-            <input type="submit" name="send">
+    <section>
+        <form action="contact.php" method="post" class="rounded text-center border border-primary">
+            <input type="text" id="formName" placeholder="Nombre" name="name" required="" class="rounded">
+            <input type="text" id="formCompany" placeholder="Empresa (Opcional)" name="company" class="rounded">
+            <input type="email" id="formEmail" placeholder="Tu email" name="email" required="" class="rounded">
+            <input type="text" id="formSubject" placeholder="Asunto" name="subject" required="" class="rounded">
+            <textarea name="message" id="formMessage" placeholder="Mensaje" cols="30" rows="10" required="" class="rounded"></textarea>
+            <input type="submit" id="formSubmit" name="send" class="rounded">
         </form>
         
 
@@ -30,7 +37,7 @@
        include("email.php");
 
     ?>    
-    </header>
+    </section>
     
     
 
@@ -39,5 +46,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js" type="module"></script>
 </body>
 </html>

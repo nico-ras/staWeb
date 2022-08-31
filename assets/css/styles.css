@@ -1,19 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400;500&display=swap');
+
+
 body {
-  font-family: Helvetica, sans-serif;
+  /*font-family: Helvetica, sans-serif;*/
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
   font-size: 1.5em;
+  
 }
 
 .wapp-div {
   margin-top: 3rem;
 }
 
-footer {
-  
+.footer {
+  box-shadow: inset 0 7px 9px -1px rgba(0,0,0,0.4);
 }
 
+h4 {
+  color: whitesmoke;
+  text-shadow: 1px 1px 3px #000000;
+  font-size: 2rem;
+}
+
+h3 {
+  padding-top: 1rem;
+  font-size: 2rem;
+  
+}
 .wapp-div p {
   margin-top: 0.5rem;
 }
@@ -33,6 +49,13 @@ footer {
 .second-navline {
   
   background-color: rgba(2, 117, 216, 0.9) ;
+  box-shadow: 3px 2px 5px, inset 0 7px 9px -3px rgba(0,0,0,0.4);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  
+  color: rgb(217, 218, 223);
+  text-shadow: -0.5px -0.5px 1px #000000;
 }
 
 .logo {
@@ -68,7 +91,14 @@ header {
     display: flex;
     justify-content: center; /* align horizontal */
     align-items: center;
+    text-shadow: 1px 1px 3px #000000;
+    box-shadow: 0px 2px 5px;
     
+    
+}
+
+.contactanos {
+  box-shadow: inset 0 4px 6px -2px rgba(0,0,0,0.4);
 }
 
 form {
@@ -104,6 +134,13 @@ textarea {
   margin-bottom: 5px;
 }
 
+.industria p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+
+
 
 
 @media screen and (min-width: 801px) {
@@ -117,6 +154,11 @@ textarea {
 
   .image-text {
     margin-bottom: 5%;
+  }
+
+  .staIntro {
+    padding-left: 8rem;
+    padding-right: 8rem;
   }
 }
 
@@ -234,28 +276,42 @@ textarea {
   }
 
 .second_div {
-  height: 8rem;
+  height: 14rem;
+  box-shadow: 3px 2px 5px, inset 0 7px 9px -2px rgba(0,0,0,0.4);
 }
 
 .second_div h4 {
   padding-top: 1rem;
+  color: whitesmoke;
+}
+
+.second_div p {
+  padding-top: 1rem;
+  color: whitesmoke;
+}
+
+.industria {
+  padding-top: 1.5rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+.industria-img {
+  height: 4rem;
+  width: 4rem;
 }
 
 .interSpace1 {
   height: 2rem;
+  box-shadow: 0px 2px 5px, inset 0 7px 9px -1px rgba(0,0,0,0.4);
 }
 
-.staIntro h3 {
-  padding-top: 1rem;
-  font-size: 2rem;
-}
+
 
 .staIntro p {
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   padding-bottom: 1rem;
-  padding-left: 3rem;
-  padding-right: 3rem;
 }
+
 .dealers {
   padding-top: 2rem;
   padding-bottom: 2rem;
